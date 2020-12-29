@@ -10,8 +10,8 @@ project "ImGui"
 
 	files
 	{
-		"%{prj.name}/**.h",
-		"%{prj.name}/**.cpp"
+		"**.h",
+		"**.cpp"
 	}
 
 	filter "system:windows"
